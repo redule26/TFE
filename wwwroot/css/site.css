@@ -1,0 +1,72 @@
+/*CSS Variables*/
+:root {
+    --navbar-bg-color: #0094ff;
+    --navbar-text-color: #fff;
+}
+
+/*Reusable classes*/
+.bold {
+    font-weight: bold;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+/*NAV START*/
+#vwa-logo {
+    width: 100px;
+}
+
+nav {
+    background-color: var(--navbar-bg-color);
+}
+
+header nav ul {
+    height: 100%;
+    padding: 1em;
+}
+
+header nav ul li {
+    display: inline;
+    padding-right: 3em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--navbar-text-color);
+    font-size: 17px;
+    font-family: 'Secular One', sans-serif;
+}
+/*NAV END*/
+
+/*MAIN START*/
+
+
+
+main {
+    padding: 20px;
+}
+
+/*MAIN END*/
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 2000px) {
+    html {
+        font-size: 22px;
+    }
+
+    header nav ul li a {
+        font-size: 22px;
+    }
+}
+

@@ -1,6 +1,4 @@
 ﻿<Properties StartupConfiguration="{DD9DE80B-2589-4FEA-9ACD-77E5C7FCEEF4}|Default">
-  <MonoDevelop.Ide.ItemProperties.VWA-TFE PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/UsersController.cs">
     <Files>
       <File FileName="Program.cs" Line="1" Column="1" />
@@ -21,9 +19,7 @@
         <State name="__root__">
           <Node name="VWA-TFE" expanded="True">
             <Node name="VWA-TFE" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="UsersController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Users" expanded="True" />
               </Node>
@@ -39,9 +35,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.VWA-TFE PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

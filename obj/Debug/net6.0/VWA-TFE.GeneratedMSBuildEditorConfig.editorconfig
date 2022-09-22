@@ -43,18 +43,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/SANDISK/VWA-TFE/Views/Users/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Volumes/SANDISK/VWA-TFE/Views/Users/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Volumes/SANDISK/VWA-TFE/Views/Users/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Volumes/SANDISK/VWA-TFE/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

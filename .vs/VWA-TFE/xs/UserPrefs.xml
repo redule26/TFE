@@ -1,26 +1,28 @@
 ﻿<Properties StartupConfiguration="{DD9DE80B-2589-4FEA-9ACD-77E5C7FCEEF4}|Default">
+  <MonoDevelop.Ide.ItemProperties.VWA-TFE PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/UsersController.cs">
     <Files>
-      <File FileName="Program.cs" Line="1" Column="1" />
-      <File FileName="appsettings.json" Line="12" Column="42" />
-      <File FileName="Controllers/AuthController.cs" Line="1" Column="1" />
-      <File FileName="Controllers/UsersController.cs" Line="118" Column="23" />
-      <File FileName="Views/Users/Create.cshtml" Line="3" Column="3" />
-      <File FileName="Views/Home/Contact.cshtml" Line="1" Column="1" />
-      <File FileName="Views/Users/Delete.cshtml" Line="37" Column="7" />
-      <File FileName="Views/Users/Details.cshtml" Line="6" Column="1" />
-      <File FileName="Views/Users/Edit.cshtml" Line="2" Column="1" />
-      <File FileName="Views/Users/Index.cshtml" Line="2" Column="1" />
-      <File FileName="Views/Shared/_Layout.cshtml" Line="1" Column="1" />
-      <File FileName="wwwroot/css/site.css" Line="53" Column="2" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="21" Column="95" />
+      <File FileName="Controllers/UsersController.cs" Line="44" Column="78" />
+      <File FileName="Models/User.cs" Line="15" Column="22" />
+      <File FileName="appsettings.json" Line="11" Column="7" />
+      <File FileName="Views/Users/Create.cshtml" Line="4" Column="67" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="VWA-TFE" expanded="True">
+          <Node name="VWA-TFE" expanded="True" selected="True">
             <Node name="VWA-TFE" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True" />
                 <Node name="Users" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
@@ -35,11 +37,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.VWA-TFE PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

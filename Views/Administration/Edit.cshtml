@@ -1,0 +1,27 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Edit";
+}
+<form asp-controller="Administration" asp-action="Edit" method="post">
+    <input name="UserEmail" type="text" readonly value="@Model.UserEmail"/>
+    <input name="UserName" type="text" value="@Model.UserName"/>
+    <input name="FirstName" type="text" value="@Model.FirstName"/>
+    <input name="LastName" type="text" value="@Model.LastName"/>
+    <input name="Salary" type="text" value="@Model.Salary"/>
+    <select name="JobPosition">
+        @foreach (var item in Enum.GetNames(typeof(JobPosition)))
+        {
+            if(item.ToString() == Model.JobPosition.ToString())
+            {
+                <option data="@item.ToString()" selected="selected">@item.ToString()</option>
+            } 
+            else 
+            {
+                <option data="@item.ToString()">@item.ToString()</option>
+            }
+        }
+    </select>
+    <input type="submit"/>
+</form>

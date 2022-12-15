@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/SANDISK/VWA-TFE/VWA-TFE.csproj": {}
+    "/Volumes/SANDISK/TFE/VWA-TFE/VWA-TFE.csproj": {}
   },
   "projects": {
-    "/Volumes/SANDISK/VWA-TFE/VWA-TFE.csproj": {
+    "/Volumes/SANDISK/TFE/VWA-TFE/VWA-TFE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/SANDISK/VWA-TFE/VWA-TFE.csproj",
+        "projectUniqueName": "/Volumes/SANDISK/TFE/VWA-TFE/VWA-TFE.csproj",
         "projectName": "VWA-TFE",
-        "projectPath": "/Volumes/SANDISK/VWA-TFE/VWA-TFE.csproj",
+        "projectPath": "/Volumes/SANDISK/TFE/VWA-TFE/VWA-TFE.csproj",
         "packagesPath": "/Users/jordi/.nuget/packages/",
-        "outputPath": "/Volumes/SANDISK/VWA-TFE/obj/",
+        "outputPath": "/Volumes/SANDISK/TFE/VWA-TFE/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jordi/.nuget/NuGet/NuGet.Config"
@@ -38,35 +38,57 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.4.2, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[6.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[6.0.10, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[6.0.10, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.4.2, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[6.0.2, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "Pomelo.EntityFrameworkCore.MySql.Design": {
               "target": "Package",
-              "version": "[6.3.0, )"
+              "version": "[1.1.2, )"
             }
           },
           "imports": [
@@ -88,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400-preview.22330.6/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100-rc.2.22477.23/RuntimeIdentifierGraph.json"
         }
       }
     }

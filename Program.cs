@@ -1,4 +1,7 @@
 global using VWA_TFE.Models;
+global using VWA_TFE.ViewModel;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,16 +10,24 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnexion");
+builder.Services.AddDbContext<AppDbContext>(db =>
+    db.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnexion"))
+);
 
-//Throws a exception if there's a issue with the db
+builder.Services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireDigit = false;
+    options.Password.RequiredLength = 8;
+    options.Password.RequireUppercase = true;
+    options.Password.RequireLowercase = true;
+});
 
-builder.Services.AddDbContext<AppDbContext>(
-    dbContextOptions => dbContextOptions
-        .UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
-        .LogTo(Console.WriteLine, LogLevel.Information)
-        .EnableSensitiveDataLogging()
-        .EnableDetailedErrors());
+//Configure mail
+builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
 
+builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
@@ -28,15 +39,20 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+//app.Urls.Add("http://192.168.0.155:57580");
+//app.Urls.Add("http://localhost:57580");
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+//app.MapRazorPages();
 app.Run();

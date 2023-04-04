@@ -7,44 +7,32 @@
     ViewData["Title"] = "Login";
 }
 
+<div class="row g-3 p-3 align-items-center">
+    <h2 class="mb-1">Welcome back !</h2>
+    <form class="mb-3" asp-controller="Account" asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" role="form" class="align-center">
+        <!--Username action handling-->
+        <div class="mb-3">
+            <label asp-for="UserName" class="form-label">Username</label>
+            <input class="form-control" asp-for="UserName" placeholder="ex: johndoe" />
+        </div>
+        
 
-<form asp-controller="Account" asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" role="form" class="align-center">
-    <h1>Login</h1>
-    <h4>Use your VWA account to log in.</h4>
+        <!--password action handling-->
+        <div class="mb-3">
+            <label asp-for="Password" class="form-label">Password</label>
+            <input asp-for="Password" class="form-control" placeholder="myVerySecurePassword" />
+        </div>
 
-    <table class="form-table">
-        <tr>
-            <th><label asp-for="UserName"></label></th>
-            <td>
-                <input asp-for="UserName" placeholder="ex: johndoe" /><br/>
-                <span asp-validation-for="UserName" class="text-danger"></span>
-            </td>
-        </tr>
-        <tr>
-            <th><label asp-for="Password"></label></th>
-            <td>
-                <input asp-for="Password" placeholder="myVerySecurePassword" /><br />
-                <span asp-validation-for="Password" class="text-danger"></span>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <label asp-for="RememberMe">
+        <div class="form-check">
+            <label asp-for="RememberMe" class="form-check-label">
                 @Html.DisplayNameFor(m => m.RememberMe)
-                </label>
-            </td>
-            <td>
-                <input asp-for="RememberMe" />
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2"><button class="vwa-submit-btn" type="submit">Log in</button></td>
-        </tr>
-    </table>
-    <p>
-        <a asp-action="Register"> Register as a new user?</a>
-    </p>
-    <p>
-        <a asp-action="ForgotPassword"> Forgot your passowrd?</a>
-    </p>
-</form>
+            </label> 
+            <input asp-for="RememberMe" class="form-check-input"/>
+        </div>
+
+        <button class="text-center btn btn-primary btn-customized mt-4" type="submit">Log in</button>
+    </form>
+    
+
+    <span asp-validation-summary="All" class="text-danger"></span>
+</div>

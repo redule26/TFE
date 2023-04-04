@@ -10,48 +10,69 @@ namespace VWA_TFE.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly Models.AppDbContext _context;
 
+        //dependency injection 
         public HomeController(ILogger<HomeController> logger, Models.AppDbContext context)
         {
             _logger = logger;
             _context = context;
         }
 
+        //GET : On récupère la page /Home/Index ou /Home 
         public IActionResult Index()
         {
+            ViewBag.Test = generatePassword();
             return View();
         }
 
+        //GET : /Home/Privacy
         public IActionResult Privacy()
         {
             return View();
         }
 
+        //GET : /Home/About
         public IActionResult About()
         {
             return View();
         }
 
-        //GET /Home/Contact
+        //GET : /Home/Contact
         public IActionResult Contact()
         {
             return View();
         }
 
-        //my custom route : https://localhost:7092/Home/Add/u=username&p=password&uid=uid
-        /*[Route("Home/Add/u={username}&p={password}&uid={uid}")]
-        public IActionResult WriteToDB(string username, string password, string uid = "??")
-        {
-            _context.Users.AddAsync(new User { Username = username, Password = password, Uid = uid });
-            _context.SaveChanges();
-            
-            //it's useless to catch the exception, it already get caught by the service inside Program.cs (line 13 -> 17)
-            return Content("success");
-        }*/
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        //GET : /Home/Error?id=... 
+        //Renvoie une vue 'Error' à l'aide d'un ID pour signaler à l'utilisateur qu'il y a une erreur
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)] 
+        //Attribut qui dit que la réponse envoyée ne doit pas être sauvegardée en cache chez le client ou le serveur
         public IActionResult Error()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            //Création d'une nouvelle instance de la classe 'ErrorViewModel'
+            return View(new ErrorViewModel { 
+                //RequestId c'est l'id de la requete actuelle, 
+                RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier 
+            });
+        }
+
+        private string generatePassword()
+        {
+            Random random = new Random();
+            string passwordCharacters =
+                "_$*@%&!-"
+                + "abcdefghijklmnopqrstuvwxyz"
+                + "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                + "0123456789";
+
+            string password = "";
+
+            for (int i = 0; i < 16; i++)
+            {
+                password.Append(passwordCharacters[random.Next(passwordCharacters.Length)]);
+            };
+
+            return password;
         }
     }
 }

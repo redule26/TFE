@@ -5,31 +5,39 @@
     ViewData["Title"] = "Administration";
 }
 
-<h1>Users</h1>
-<a asp-controller="Administration" asp-action="Create">Create a user account</a>
-<table id="Administration-table">
-    <tr>
-        <th>Id</th>
-        <th>Firstname</th>
-        <th>Lastname</th>
-        <th>Username</th>
-        <th>Email</th>
-        <th>Job Position</th>
-        <th>Salary</th>
-        <th colspan="2">Actions</th>
-    </tr>
-    @foreach (var user in Model)
-    {
+<div class="p-3">
+    <div class="mb-3">
+        <h1>Users</h1>
+        <a class="btn btn-success text-white" asp-controller="Administration" asp-action="Create">Create a new user</a>
+    </div>
+
+    <!--classe bootstrap qui permet d'ajouter une barre de scroll sur le tableau quand le tableau est plus grand que l'écran-->
+    <div class="table-responsive-lg">
+        <table class="table table-sm">
         <tr>
-            <td>@user.Id</td>
-            <td>@user.FirstName</td>
-            <td>@user.LastName</td>
-            <td>@user.UserName</td>
-            <td>@user.Email</td>
-            <td>@user.Position</td>
-            <td>@user.Salary €</td>
-            <td class="edit-button"><a asp-controller="Administration" asp-action="Edit" asp-route-userEmail="@user.Email">Edit</a></td> <!--with user id-->
-            <td class="delete-button"><a asp-controller="Administration" asp-action="Delete" asp-route-userEmail="@user.Email">Delete</a></td> <!--with user id-->
+            <th colspan="2">Actions</th>
+            <th>Id</th>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Job Position</th>
+            <th>Salary</th>
         </tr>
-    }
-</table>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td class="align-middle"><a class="btn btn-primary white no-text-decoration" asp-controller="Administration" asp-action="Edit" asp-route-userEmail="@user.Email">Edit</a></td> <!--with user id-->
+                <td class="align-middle"><a class="btn btn-danger white no-text-decoration" asp-controller="Administration" asp-action="Delete" asp-route-userEmail="@user.Email">Delete</a></td> <!--with user id-->
+                <td class="align-middle text-truncate">@user.Id</td>
+                <td class="align-middle">@user.FirstName</td>
+                <td class="align-middle">@user.LastName</td>
+                <td class="align-middle">@user.UserName</td>
+                <td class="align-middle">@user.Email</td>
+                <td class="align-middle">@user.Position</td>
+                <td class="align-middle">@user.Salary €</td>
+            </tr>
+        }
+        </table>
+    </div>
+</div>

@@ -2,6 +2,8 @@
 
 namespace VWA_TFE.Models
 {
+
+    //rajoute quattre propriétés supplémentaires en plus de celles reçues de IndentityUser (Héritage)
     public class AppUser : IdentityUser
     {
         public string? FirstName { get; set; }

@@ -19,14 +19,7 @@ namespace VWA_TFE.Controllers
         private readonly UserManager<AppUser> _userManager;
         private readonly MailSettings _mailSettings;
 
-        //private readonly RoleManager<IdentityRole> _roleManager;
-        /*
-        private readonly SignInManager<AppUser> _signInManager;
-        private readonly RoleManager<IdentityRole> _roleManager;
-        private readonly MailSettings _mailSettings;*/
-
-
-        public AdministrationController(UserManager<AppUser> userManager, IOptions<MailSettings> mailSettings/*, SignInManager<AppUser> signInManager, IOptions<MailSettings> mailSettings, RoleManager<IdentityRole> roleManager, AppDbContext dbContext*/)
+        public AdministrationController(UserManager<AppUser> userManager, IOptions<MailSettings> mailSettings)
         {
             _userManager = userManager;
             _mailSettings = mailSettings.Value;
@@ -37,17 +30,19 @@ namespace VWA_TFE.Controllers
              _dbContext = dbContext;*/
         }
 
-        //GET 
+        //GET : Administration/Index
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
             var users = await _userManager.Users.ToListAsync();
             return View(users);
         }
 
+        //GET : Administration/Edit
         [HttpGet]
         public async Task<IActionResult> Edit(string userEmail)
         {
-            var user = await _userManager.FindByEmailAsync(userEmail);
+            var user = await _userManager.FindByEmailAsync(userEmail); //On cherche l'utilisateur dont le mail est userEmail
             EditViewModel editViewModel = new EditViewModel();
             editViewModel.UserEmail = userEmail;
             editViewModel.UserName = user.UserName;
@@ -79,18 +74,22 @@ namespace VWA_TFE.Controllers
 
         }
 
+        [HttpPost]
         public async Task<IActionResult> Delete(string userEmail)
         {
+            //je vérifie manuellement si le seul administrateur est supprimé
             var user = await _userManager.FindByEmailAsync(userEmail);
             if(user.Id != "288df3c7-aaab-467c-b8bb-09184a135d79")
             {
                 await _userManager.DeleteAsync(user);
-            } 
+            }
             return RedirectToAction("Index", "Administration");
         }
 
+
+        //Get : Administration/Create
         [HttpGet]
-        public async Task<IActionResult> Create()
+        public IActionResult Create()
         {
             return View();
         }
@@ -98,22 +97,28 @@ namespace VWA_TFE.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(RegisterViewModel model)
         {
+            //Si tous les attributs du RegisterViewModel sont vérifiés 
             if (ModelState.IsValid)
-            {
+            {  
+                //Création d'un nouveau AppUser
                 var user = new AppUser { Email = model.Email, UserName = model.UserName, FirstName = model.FirstName, LastName = model.LastName };
+                //on stocke le résultat de l'ajout de l'utilisateur à la database
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
 
+                    //Création du mail
                     var email = new MimeMessage();
-                    email.From.Add(MailboxAddress.Parse(_mailSettings.Mail));
-                    email.To.Add(MailboxAddress.Parse(model.Email));
+                    email.From.Add(MailboxAddress.Parse(_mailSettings.Mail)); //mail de l'expéditeur
+                    email.To.Add(MailboxAddress.Parse(model.Email)); //mail du destinataire
                     email.Subject = $"{user.FirstName} {user.LastName}, your VWA account has been created.";
 
+                    //Creation du contenu
                     var builder = new BodyBuilder();
                     builder.TextBody = $"Login : {user.UserName} \nPassword : {model.Password}";
                     email.Body = builder.ToMessageBody();
 
+                    //On essaye d'envoyer le mail
                     try
                     {
                         using var smtp = new SmtpClient();
@@ -124,21 +129,38 @@ namespace VWA_TFE.Controllers
                     }
                     catch (Exception ex)
                     {
-                        throw ex;
+                        //Si une erreur apparait, on envoie une exception
+                        throw new Exception($"Mail couldn't be sent. {ex.Message}");
                     }
 
-
+                    //on renvoie vers la page Administration/Index
                     return RedirectToAction("Index", "Administration");
                 }
 
-                ModelState.AddModelError("Password", "User could not be created. Password not unique enough");
+                //Si le modèle n'a pas été validé
+                ModelState.AddModelError("Error", "Something must have been wrong, try again... ps: Check if the password is at least 8 characters long and that the mail isn't used");
             }
             return View(model);
         }
 
-        public string generatePassword()
+
+        private string generatePassword()
         {
-            return "";
+            Random random = new Random();
+            string passwordCharacters =
+                "_$*@%&!-"
+                + "abcdefghijklmnopqrstuvwxyz"
+                + "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                + "0123456789";
+
+            string password = "";
+
+            for (int i = 0; i < 16; i++)
+            {
+                password.Append(passwordCharacters[random.Next(passwordCharacters.Length)]);
+            };
+
+            return password;
         }
     }
 }

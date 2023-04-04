@@ -2,8 +2,11 @@
     ViewData["Title"] = "Profile";
 }
 
-<h1>@Model.UserName's profile</h1>
-<p>Name : @Model.FirstName @Model.LastName</p>
-<p>Email : @Model.Email</p>
-<p>Job position : @Model.Position</p>
-<p>Salary : @Model.Salary</p>
+<!--Allign center-->
+<div class="text-center" style="width: 100%">
+    <h1>@Model.UserName's profile</h1>
+    <p>Name : @Model.FirstName @Model.LastName</p>
+    <p>Email : @Model.Email</p>
+    <p>Job position : @Model.Position</p>
+    <p>Salary : @Model.Salary</p>
+</div>

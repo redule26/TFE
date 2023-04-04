@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets/SecularOne-Regular.ttf"
     },
     {
+      "Id": "/Volumes/SANDISK/TFE/VWA-TFE/wwwroot/building.jpg",
+      "PackagePath": "staticwebassets/building.jpg"
+    },
+    {
       "Id": "/Volumes/SANDISK/TFE/VWA-TFE/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
       "Id": "/Volumes/SANDISK/TFE/VWA-TFE/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Volumes/SANDISK/TFE/VWA-TFE/wwwroot/human-earth.jpg",
+      "PackagePath": "staticwebassets/human-earth.jpg"
     },
     {
       "Id": "/Volumes/SANDISK/TFE/VWA-TFE/wwwroot/js/site.js",

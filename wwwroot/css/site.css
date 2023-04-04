@@ -30,6 +30,14 @@
     background-color: dodgerblue;
 }
 
+.white {
+    color: #fff;
+}
+
+.no-text-decoration {
+    text-decoration: none;
+}
+
 
 html {
     position: relative;
@@ -39,120 +47,31 @@ html {
     margin: 0;
 }
 
-input {
-    width: 20%;
-}
-
-input[type=submit]{
-    width: 200px;
-}
-
-vwa-submit-btn {
-    width: 1.3em;
-}
-
-/*NAV START*/
 #vwa-logo {
     width: 100px;
 }
 
-#vwa-nav {
-    margin-bottom: 1.5em;
-}
-
-header #vwa-nav ul {
-    height: 100%;
-    padding: 1em;
-    margin: 0;
-    background-color: var(--navbar-bg-color);
-}
-
-header #vwa-nav ul li {
-    display: inline;
-    padding-right: 3em;
-}
-
-header #vwa-nav ul li a {
-    text-decoration: none;
-    color: var(--navbar-text-color);
-    font-size: 17px;
-    font-family: 'Secular One', sans-serif;
-}
-
-header #vwa-nav ul li span {
-    display: inline;
-}
-
-header #vwa-nav ul li form {
-    width: 100px;
-    display: inline;
-}
-
-header #vwa-nav ul li form button {
+#logout-form {
     border: 0px;
-    text-decoration: none;
-    color: var(--navbar-text-color);
-    background-color: var(--navbar-bg-color);
-    font-size: 17px;
-    font-family: 'Secular One', sans-serif;
-    display: inline;
 }
 
-header #vwa-nav #misc {
-    background-color: #06062ebf;
-    padding: 0;
+#logout-form button {
+    border: 0px;
+    background-color: transparent;
+    color: rgba(255,255,255,.55);
 }
 
-header #vwa-nav #misc li {
-    padding: 0px 1em;
-}
-/*NAV END*/
-
-/*MAIN START*/
-.form-table {
-    margin-left: auto;
-    margin-right: auto;
+#logout-form button:hover {
+    color: white;
+    opacity: 0.8;
 }
 
-.form-table input {
-    min-width: 300px;
+/*Remove navbar burger menu outline border */
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
 }
-
-.form-table th {
-    text-align: right;
-    padding-right: 1em;
-}
-
-
-main {
-    padding: 20px;
-    height: 100%;
-}
-
-#Administration-table {
-    border: 1px solid #000;
-}
-
-#Administration-table td, #Administration-table th {
-    border: 1px solid #000;
-    padding: 1em;
-}
-/*MAIN END*/
-
-@media (min-width: 487px) and (max-width: 692px) {
-
-    #vwa-nav #navbar {
-        padding-bottom: 2.8em;
-    }
-
-    #account-actions {
-        float: left;
-    }
-}
-
-@media (min-width: 2000px) {
-    html {
-        font-size: 22px;
-    }
-}
-

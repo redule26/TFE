@@ -1,4 +1,5 @@
 # VWA
+Créé par Jordi van Cuijlenborg
 Application web de gestion d'entreprise. TFE réalisé en ASP.NET Core 6 MVC, dans lequel j'ai implémenté les frameworks Identity et EntityFramework
 
 ##Réalisation

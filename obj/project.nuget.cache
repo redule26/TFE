@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sPMdiVIrE8X0Xw1FCBij1eOpFNQY2k4X4ZdmsjO7id4Ma+1VeTXXIuoAdxCt/50WEC/s0K0aiP5kIQebiPGPhQ==",
+  "dgSpecHash": "zihMLEFVhF6MDpHoOotgsfdkfPcbnEGzCzue2wWosYu9E3cXn4NSQyimuhtCQgzqPXZYlkcwAXBhZzw/RYhYLA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\VWA-TFE.csproj",
+  "projectFilePath": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\VWA-TFE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jordi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jordi\\.nuget\\packages\\mailkit\\3.4.2\\mailkit.3.4.2.nupkg.sha512",

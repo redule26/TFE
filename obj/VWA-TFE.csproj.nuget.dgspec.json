@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\VWA-TFE.csproj": {}
+    "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\VWA-TFE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\VWA-TFE.csproj": {
+    "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\VWA-TFE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\VWA-TFE.csproj",
+        "projectUniqueName": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\VWA-TFE.csproj",
         "projectName": "VWA-TFE",
-        "projectPath": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\VWA-TFE.csproj",
+        "projectPath": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\VWA-TFE.csproj",
         "packagesPath": "C:\\Users\\jordi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\obj\\",
+        "outputPath": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jordi\\AppData\\Roaming\\NuGet\\NuGet.Config",

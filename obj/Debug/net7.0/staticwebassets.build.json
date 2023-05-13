@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CpA8fjTH7IgjHw+t5jU/tLlsbOrxxtlhn7vQ7ROkls0=",
+  "Hash": "ZjxfJNSMSay9jyMyLLcAiE/KBbXo08zjamXVwIYPBAM=",
   "Source": "VWA-TFE",
   "BasePath": "_content/VWA-TFE",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "VWA-TFE\\wwwroot",
       "Source": "VWA-TFE",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\building.jpg",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\building.jpg",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "building.jpg",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\building.jpg"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\css\\site.css",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\favicon.ico",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\human-earth.jpg",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\human-earth.jpg",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "human-earth.jpg",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\human-earth.jpg"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\icons\\dev-icon.svg",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\icons\\dev-icon.svg",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "icons/dev-icon.svg",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\dev-icon.svg"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\icons\\fi-rr-envelope.svg",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\icons\\fi-rr-envelope.svg",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "icons/fi-rr-envelope.svg",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\fi-rr-envelope.svg"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\icons\\fi-rr-exclamation.svg",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\icons\\fi-rr-exclamation.svg",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "icons/fi-rr-exclamation.svg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\fi-rr-exclamation.svg"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\icons\\fi-rr-globe.svg",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\icons\\fi-rr-globe.svg",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "icons/fi-rr-globe.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\fi-rr-globe.svg"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\icons\\fi-rr-home.svg",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\icons\\fi-rr-home.svg",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "icons/fi-rr-home.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\fi-rr-home.svg"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\icons\\fi-rr-menu-burger.svg",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\icons\\fi-rr-menu-burger.svg",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "icons/fi-rr-menu-burger.svg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\fi-rr-menu-burger.svg"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\icons\\fi-rr-user.svg",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\icons\\fi-rr-user.svg",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "icons/fi-rr-user.svg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\fi-rr-user.svg"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\js\\site.js",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\SecularOne-Regular.ttf",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\SecularOne-Regular.ttf",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "SecularOne-Regular.ttf",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\SecularOne-Regular.ttf"
     },
     {
-      "Identity": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\vwa-logo.svg",
+      "Identity": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\vwa-logo.svg",
       "SourceId": "VWA-TFE",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jordi\\Documents\\GitHub\\VWA\\wwwroot\\",
       "BasePath": "_content/VWA-TFE",
       "RelativePath": "vwa-logo.svg",
       "AssetKind": "All",

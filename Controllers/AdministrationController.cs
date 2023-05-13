@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.AspNetCore.Identity.UI.V4.Pages.Internal;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
@@ -59,7 +58,7 @@ namespace VWA_TFE.Controllers
         {
             if(ModelState.IsValid)
             {
-                var user = await _userManager.FindByEmailAsync(model.UserEmail);
+                var user = await _userManager.FindByEmailAsync(model.UserEmail!);
                 user.UserName = model.UserName;
                 user.FirstName = model.FirstName;
                 user.LastName = model.LastName;
@@ -71,15 +70,14 @@ namespace VWA_TFE.Controllers
                 return RedirectToAction("Index", "Administration");
             }
             return View(model);
-
         }
 
         [HttpPost]
-        public async Task<IActionResult> Delete(string userEmail)
+        public async Task<IActionResult> Delete(string id)
         {
+            var user = await _userManager.FindByIdAsync(id);
             //je vérifie manuellement si le seul administrateur est supprimé
-            var user = await _userManager.FindByEmailAsync(userEmail);
-            if(user.Id != "288df3c7-aaab-467c-b8bb-09184a135d79")
+            if(user.Id != "288df3c7-aaab-467c-b8bb-09184a135d79" && user != null)
             {
                 await _userManager.DeleteAsync(user);
             }
@@ -100,13 +98,18 @@ namespace VWA_TFE.Controllers
             //Si tous les attributs du RegisterViewModel sont vérifiés 
             if (ModelState.IsValid)
             {  
+                //pas besoin car Identity est configuré de manière à bloquer les doublons de mails
+                /*if(_userManager.FindByEmailAsync(model.Email) != null || _userManager.FindByNameAsync(model.UserName) != null) 
+                { 
+                    ModelState.AddModelError("Error", "This email or username is alreay used..."); 
+                }*/
+
                 //Création d'un nouveau AppUser
                 var user = new AppUser { Email = model.Email, UserName = model.UserName, FirstName = model.FirstName, LastName = model.LastName };
                 //on stocke le résultat de l'ajout de l'utilisateur à la database
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
-
                     //Création du mail
                     var email = new MimeMessage();
                     email.From.Add(MailboxAddress.Parse(_mailSettings.Mail)); //mail de l'expéditeur
@@ -136,9 +139,12 @@ namespace VWA_TFE.Controllers
                     //on renvoie vers la page Administration/Index
                     return RedirectToAction("Index", "Administration");
                 }
-
-                //Si le modèle n'a pas été validé
-                ModelState.AddModelError("Error", "Something must have been wrong, try again... ps: Check if the password is at least 8 characters long and that the mail isn't used");
+                else
+                {
+                    //Si le modèle n'a pas été validé (si le mail est déjà pris, si le nom d'utilisateur est déjà pris, si le mdp est pas assez long)
+                    //la comparaison de pswrd et confirmpswrd est fait dans le RegisterViewModel (avec des attributs
+                    ModelState.AddModelError("Error", "Something must have been wrong, try again... ps: Check if the password is at least 8 characters long and that the mail isn't used");
+                }
             }
             return View(model);
         }

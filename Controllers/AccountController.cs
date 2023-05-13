@@ -13,19 +13,23 @@ namespace VWA_TFE.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly MailSettings _mailSettings;
+        private readonly UserManager<AppUser> _userManager;
 
-        //injection des dépendances UserManager, SignInManager, RoleManager, MailSettings
-        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IOptions<MailSettings> mailSettings, RoleManager<IdentityRole> roleManager)
+        //injection des dépendances dans le constructeur de AccountController          
+        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, RoleManager<IdentityRole> roleManager)
         {
-            _userManager = userManager;
             _signInManager = signInManager;
-            _mailSettings = mailSettings.Value;
+            _userManager = userManager;
             _roleManager = roleManager;
         }
+
+        /*
+         _signInManager = signInManager;
+            _mailSettings = mailSettings.Value;
+            _roleManager = roleManager;*/
 
         //Get : Account/Login
         [HttpGet]

@@ -1,7 +1,6 @@
 //'global using' permet d'incorporer ce modèle dans tous les fichiers du programme
 global using VWA_TFE.Models;
 global using VWA_TFE.ViewModel; 
-
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -12,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 //On récupère les informations de connexion enregistrées dans le fichier de configuration appSettings.json
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnexion");
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnexion")!;
 
 //Ajout du contexte de database, configuré grâce au modèle AppDbContext
 builder.Services.AddDbContext<AppDbContext>(db =>
@@ -30,8 +29,8 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.Password.RequireNonAlphanumeric = false;
     options.Password.RequireDigit = false;
     options.Password.RequiredLength = 8;
-    options.Password.RequireUppercase = true;
-    options.Password.RequireLowercase = true;
+    options.Password.RequireUppercase = false;
+    options.Password.RequireLowercase = false;
 });
 
 //On incorpore les données du mail enregistrées dans 'appsettings.json' au Modèle MailSettings

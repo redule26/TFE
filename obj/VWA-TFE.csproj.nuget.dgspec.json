@@ -1,30 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/SANDISK/TFE/VWA-TFE/VWA-TFE.csproj": {}
+    "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\VWA-TFE.csproj": {}
   },
   "projects": {
-    "/Volumes/SANDISK/TFE/VWA-TFE/VWA-TFE.csproj": {
+    "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\VWA-TFE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/SANDISK/TFE/VWA-TFE/VWA-TFE.csproj",
+        "projectUniqueName": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\VWA-TFE.csproj",
         "projectName": "VWA-TFE",
-        "projectPath": "/Volumes/SANDISK/TFE/VWA-TFE/VWA-TFE.csproj",
-        "packagesPath": "/Users/jordi/.nuget/packages/",
-        "outputPath": "/Volumes/SANDISK/TFE/VWA-TFE/obj/",
+        "projectPath": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\VWA-TFE.csproj",
+        "packagesPath": "C:\\Users\\jordi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jordi\\Desktop\\temp usb\\TFE\\VWA-TFE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jordi/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\jordi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -35,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "MailKit": {
               "target": "Package",
@@ -44,13 +46,9 @@
             },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[2.1.31, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.10, )"
-            },
-            "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[6.0.10, )"
             },
@@ -110,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

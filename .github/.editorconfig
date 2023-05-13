@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS8981: Le nom de type contient uniquement des caractères ascii en minuscules. De tels noms peuvent devenir réservés pour la langue.
+dotnet_diagnostic.CS8981.severity = none

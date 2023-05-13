@@ -1,0 +1,81 @@
+/*CSS Variables*/
+:root {
+    --navbar-bg-color: #0094ff;
+    --navbar-text-color: #fff;
+}
+
+/*Reusable classes*/
+.bold {
+    font-weight: bold;
+}
+
+.align-right {
+    float: right;
+}
+
+.align-left {
+    float: left;
+}
+
+.align-center {
+    width: 100%;
+    text-align: center;
+}
+
+.delete-button {
+    background-color: red;
+}
+
+.edit-button {
+    background-color: dodgerblue;
+}
+
+.svg-icons {
+    fill: #000;
+}
+
+.white {
+    color: #fff;
+}
+
+.no-text-decoration {
+    text-decoration: none;
+}
+
+
+html {
+    position: relative;
+    min-height: 100%;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+#vwa-logo {
+    width: 100px;
+}
+
+#logout-form {
+    border: 0px;
+}
+
+#logout-form button {
+    border: 0px;
+    background-color: transparent;
+    color: rgba(255,255,255,.55);
+}
+
+#logout-form button:hover {
+    color: white;
+    opacity: 0.8;
+}
+
+/*Remove navbar burger menu outline border */
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}

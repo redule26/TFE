@@ -1,0 +1,70 @@
+﻿@model RegisterViewModel
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+
+<div class="row g-3 p-3 align-items-center">
+    <h2 class="mb-1">Ready to sign in ?</h2>
+    <form class="mb-3" asp-controller="Account" asp-action="Register" method="post" role="form" class="align-center">
+        <!--Email section-->
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label"></label>
+            <input asp-for="Email" placeholder="johndoe@icloud.com" class="form-control" />
+        </div>
+
+        <!--username section-->
+        <div class="mb-3">
+            <label asp-for="UserName" class="form-label"></label>
+            <input asp-for="UserName" placeholder="johndoe" class="form-control"/>
+        </div>
+
+        <!--Firstname section-->
+        <div class="mb-3">
+            <label asp-for="FirstName" class="form-label"></label>
+            <input asp-for="FirstName" placeholder="John" class="form-control" />
+        </div>
+
+        <!--lastname section-->
+        <div class="mb-3">
+            <label asp-for="LastName" class="form-label"></label>
+            <input asp-for="LastName" placeholder="John" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Password" class="form-label"></label>
+            <input asp-for="Password" placeholder="MyAw€someP%ssw&rd" class="form-control"/>
+            <div id="passwordHelpBlock" class="form-text">
+                Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="ConfirmPassword" class="form-label"></label>
+            <input asp-for="ConfirmPassword" placeholder="Type in your password again" class="form-control" />
+        </div>
+        <button class="text-center btn btn-primary btn-customized mt-4" type="submit">Register</button>
+    </form>
+    
+    <div asp-validation-summary="All" class="text-danger"></div>
+</div>
+
+    @*<div class="form-group">
+            <label asp-for="FirstName" col-md-2"></label>
+            <div class="col-md-10">
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="LastName" class="col-md-2"></label>
+            <div class="col-md-10">
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+        </div>*@
+
+
+    

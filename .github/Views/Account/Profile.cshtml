@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Profile";
+}
+
+<!--Allign center-->
+<div class="text-center" style="width: 100%">
+    <h1>@Model.UserName</h1>
+    <table style="border: 0;">
+        <tr>
+            <td>Firstname and lastname :</td>
+            <td>@Model.FirstName @Model.LastName</td>
+        </tr>
+
+    </table>
+    <p>Name : @Model.FirstName @Model.LastName</p>
+    <p>Email : @Model.Email</p>
+    <p>Job position : @Model.Position</p>
+    <p>Salary : @Model.Salary €</p>
+
+    <a class="btn btn-info white no-text-decoration">Change password</a>
+    <a class="btn btn-danger white no-text-decoration">Delete account</a>
+</div>

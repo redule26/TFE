@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Administration";
+}
+
+<div class="p-3">
+    <div class="mb-3">
+        <h1>Users</h1>
+        <a class="btn btn-success text-white" asp-controller="Administration" asp-action="Create">Create a new user</a>
+    </div>
+
+    <!--classe bootstrap qui permet d'ajouter une barre de scroll sur le tableau quand le tableau est plus grand que l'écran-->
+    <div class="table-responsive-lg">
+        <table class="table table-sm">
+        <tr>
+            <th colspan="2">Actions</th>
+            <th>Id</th>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Job Position</th>
+            <th>Salary</th>
+        </tr>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td class="align-middle"><a class="btn btn-primary white no-text-decoration" asp-controller="Administration" asp-action="Edit" asp-route-userEmail="@user.Email">Edit</a></td> <!--with user id-->
+                
+                <td class="align-middle">
+                    <form asp-controller="Administration" asp-action="Delete" asp-route-id="@user.Id">
+                            <input class="btn btn-danger white no-text-decoration" type="submit" value="Delete"/>
+                    </form>
+                </td>
+
+                <td class="align-middle text-truncate">@user.Id</td>
+                <td class="align-middle">@user.FirstName</td>
+                <td class="align-middle">@user.LastName</td>
+                <td class="align-middle">@user.UserName</td>
+                <td class="align-middle">@user.Email</td>
+                <td class="align-middle">@user.Position</td>
+                <td class="align-middle">@user.Salary €</td>
+            </tr>
+        }
+        </table>
+    </div>
+</div>

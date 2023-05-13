@@ -1,0 +1,22 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@{
+    ViewData["Title"] = "Contact";
+}
+
+
+<div class="text-center">
+    <div class="d-inline align-items-center">
+        <image class="svg-icons d-inline align-middle" src="\icons\fi-rr-envelope.svg" /> &nbsp; <h1 class="d-inline align-middle">@ViewData["Title"]</h1>
+    </div>
+    <p>Vous pouvez nous contacter pour des idées de projets ou des devis.</p>
+    <form action="mailto:vwa@vancuijlenborg.be" method="post" enctype="text/plain">
+        A propos de : <input type="text" name="about" placeholder="Un devis, une proposition,.."/>
+        Détails : <input height="200" type="text" name="details" placeholder="Détails"/>
+        <input type="submit" name="submit"/>
+    </form>
+</div>

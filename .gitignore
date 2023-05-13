@@ -179,9 +179,6 @@ DocProject/Help/*.hhp
 DocProject/Help/Html2
 DocProject/Help/html
 
-#Settings file
-appsettings.json
-
 # Click-Once directory
 publish/
 
@@ -478,3 +475,4 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+appsettings.json

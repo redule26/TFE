@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/SANDISK/TFE/VWA-TFE/VWA-TFE.csproj": {}
+    "/Users/jordi/Documents/GitHub/VWA/VWA-TFE.csproj": {}
   },
   "projects": {
-    "/Volumes/SANDISK/TFE/VWA-TFE/VWA-TFE.csproj": {
+    "/Users/jordi/Documents/GitHub/VWA/VWA-TFE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/SANDISK/TFE/VWA-TFE/VWA-TFE.csproj",
+        "projectUniqueName": "/Users/jordi/Documents/GitHub/VWA/VWA-TFE.csproj",
         "projectName": "VWA-TFE",
-        "projectPath": "/Volumes/SANDISK/TFE/VWA-TFE/VWA-TFE.csproj",
+        "projectPath": "/Users/jordi/Documents/GitHub/VWA/VWA-TFE.csproj",
         "packagesPath": "/Users/jordi/.nuget/packages/",
-        "outputPath": "/Volumes/SANDISK/TFE/VWA-TFE/obj/",
+        "outputPath": "/Users/jordi/Documents/GitHub/VWA/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jordi/.nuget/NuGet/NuGet.Config"
@@ -20,6 +20,7 @@
           "net6.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -110,7 +111,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
         }
       }
     }

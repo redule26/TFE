@@ -78,8 +78,8 @@
     </div>
 
 
-    <footer class="text-center mb-3 footer fixed-bottom">
-            &copy; @DateTime.Now.Year - vanCuijlenborgWebApps - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer class="text-center mb-3 footer @((ViewData["title"] == "Home")? "sticky-bottom pb-3":"fixed-bottom") ">
+&copy; @DateTime.Now.Year - vanCuijlenborgWebApps - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
     </footer>
     
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

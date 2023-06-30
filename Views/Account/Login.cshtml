@@ -9,7 +9,7 @@
 
 <div class="row g-3 p-3 align-items-center">
     <h2 class="mb-1">Welcome back !</h2>
-    <form class="mb-3" asp-controller="Account" asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" role="form" class="align-center">
+    <form class="align-center mb-3" asp-controller="Account" asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" role="form">
         <!--Username action handling-->
         <div class="mb-3">
             <label asp-for="UserName" class="form-label">Username</label>

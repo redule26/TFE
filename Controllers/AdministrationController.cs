@@ -40,11 +40,11 @@ namespace VWA_TFE.Controllers
 
         //GET : Administration/Edit
         [HttpGet]
-        public async Task<IActionResult> Edit(string userEmail)
+        public async Task<IActionResult> Edit(string id)
         {
-            var user = await _userManager.FindByEmailAsync(userEmail); //On cherche l'utilisateur dont le mail est userEmail
+            var user = await _userManager.FindByIdAsync(id); //On cherche l'utilisateur dont le mail est userEmail
             EditViewModel editViewModel = new EditViewModel();
-            editViewModel.UserEmail = userEmail;
+            editViewModel.UserEmail = user.Email;
             editViewModel.UserName = user.UserName;
             editViewModel.FirstName = user.FirstName;
             editViewModel.LastName = user.LastName;
@@ -74,11 +74,11 @@ namespace VWA_TFE.Controllers
 
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Delete(string userEmail)
+        [HttpGet]
+        public async Task<IActionResult> Delete(string id)
         {
             //je vérifie manuellement si le seul administrateur est supprimé
-            var user = await _userManager.FindByEmailAsync(userEmail);
+            var user = await _userManager.FindByIdAsync(id);
             if(user.Id != "288df3c7-aaab-467c-b8bb-09184a135d79")
             {
                 await _userManager.DeleteAsync(user);
@@ -144,23 +144,23 @@ namespace VWA_TFE.Controllers
         }
 
 
-        private string generatePassword()
-        {
-            Random random = new Random();
-            string passwordCharacters =
-                "_$*@%&!-"
-                + "abcdefghijklmnopqrstuvwxyz"
-                + "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-                + "0123456789";
+        //private string generatePassword()
+        //{
+        //    Random random = new Random();
+        //    string passwordCharacters =
+        //        "_$*@%&!-"
+        //        + "abcdefghijklmnopqrstuvwxyz"
+        //        + "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        //        + "0123456789";
 
-            string password = "";
+        //    string password = "";
 
-            for (int i = 0; i < 16; i++)
-            {
-                password.Append(passwordCharacters[random.Next(passwordCharacters.Length)]);
-            };
+        //    for (int i = 0; i < 16; i++)
+        //    {
+        //        password.Append(passwordCharacters[random.Next(passwordCharacters.Length)]);
+        //    };
 
-            return password;
-        }
+        //    return password;
+        //}
     }
 }

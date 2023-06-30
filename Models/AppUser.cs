@@ -10,5 +10,7 @@ namespace VWA_TFE.Models
         public string? LastName { get; set; }
         public JobPosition Position { get; set; }
         public float Salary { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime BirthDate { get; set; }
     }
 }

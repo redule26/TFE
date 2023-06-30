@@ -3,10 +3,29 @@
 }
 
 <!--Allign center-->
-<div class="text-center" style="width: 100%">
-    <h1>@Model.UserName's profile</h1>
-    <p>Name : @Model.FirstName @Model.LastName</p>
-    <p>Email : @Model.Email</p>
-    <p>Job position : @Model.Position</p>
-    <p>Salary : @Model.Salary</p>
+<div class="px-auto" style="width: 100%">
+    <table>
+        <tr>
+            <td colspan="2">@Model.UserName</td>
+        </tr>
+        <tr>
+            <td colspan="2">@Model.Email</td>
+        </tr>
+        <tr>
+            <td colspan="2">@Model.FirstName</td>
+        </tr>
+        <tr>
+            <td colspan="2">@Model.LastName</td>
+        </tr>
+        <tr>
+            <td colspan="2">@Model.Position</td>
+        </tr>
+        <tr>
+            <td colspan="2">@Model.Salary</td>
+        </tr>
+        <tr>
+            <td><a class="btn btn-primary white no-text-decoration" asp-controller="Administration" asp-action="Edit" asp-route-Id="@Model.Id">Edit</a></td>
+            <td><a class="btn btn-danger white no-text-decoration" asp-controller="Administration" asp-action="Delete" asp-route-Id="@Model.Id">Delete</a></td>
+        </tr>
+    </table>
 </div>

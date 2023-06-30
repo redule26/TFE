@@ -20,7 +20,7 @@ namespace VWA_TFE.Controllers
         //GET : On récupère la page /Home/Index ou /Home 
         public IActionResult Index()
         {
-            ViewBag.Test = generatePassword();
+            //ViewBag.Test = generatePassword();
             return View();
         }
 
@@ -56,23 +56,23 @@ namespace VWA_TFE.Controllers
             });
         }
 
-        private string generatePassword()
-        {
-            Random random = new Random();
-            string passwordCharacters =
-                "_$*@%&!-"
-                + "abcdefghijklmnopqrstuvwxyz"
-                + "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-                + "0123456789";
+        //private string generatePassword()
+        //{
+        //    Random random = new Random();
+        //    string passwordCharacters =
+        //        "_$*@%&!-"
+        //        + "abcdefghijklmnopqrstuvwxyz"
+        //        + "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        //        + "0123456789";
 
-            string password = "";
+        //    string password = "";
 
-            for (int i = 0; i < 16; i++)
-            {
-                password.Append(passwordCharacters[random.Next(passwordCharacters.Length)]);
-            };
+        //    for (int i = 0; i < 16; i++)
+        //    {
+        //        password.Append(passwordCharacters[random.Next(passwordCharacters.Length)]);
+        //    };
 
-            return password;
-        }
+        //    return password;
+        //}
     }
 }
